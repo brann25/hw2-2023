@@ -1,0 +1,89 @@
+/* PART OF ASSIGNMENT SI-539 FALL 2023 SCHOOL OF INFORMATION UNIVERSITY OF MICHIGAN 
+Created by ColleenVanLent */
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 20px 20px 0px 20px;
+}
+
+h1 {
+    color: #C4C4C4;
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: #C4C4C4;
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    color: #707070;
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+img {
+    width: 250px;
+    text-align: center;
+    border: dashed 10px white;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: solid 3px white;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.blue {
+    background-color: #0037ff;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px;
+    border-right: 5px;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.green {
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px;
+    border-right: 5px;
+}
+
+footer{
+    background-color: linear-gradient(#000000, #0000ff 25%, #0066ff 70%);
+    border: solid 5px white;
+}
+
+footer p {
+    font: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
