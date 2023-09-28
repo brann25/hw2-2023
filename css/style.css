@@ -5,8 +5,8 @@ Created by ColleenVanLent */
 
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     margin: 20px 20px 0px 20px;
 }
 h1 {
@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     padding: 15px;
 }
-h2 {
+h2{
     font-size: 30px;
     color: #0D0D0D;
 }
@@ -26,15 +26,15 @@ img {
     display: block;
     margin: auto;
     width: 250px;
-    border: dashed 10px white;
+    border: dashed 10px #ffffff;
 }
 div {
     min-height: 125px;
     padding: 20px;
-    border: solid 3px white;
+    border: solid 3px #ffffff;
 }
 .introduction {
-    border: solid 3px white;
+    border: solid 3px #ffffff;
     padding: 20px;
     border-radius: 15px;
     margin: 15px 0 0 0;
@@ -45,18 +45,24 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: solid white 2px;
-    border-left: solid white 5px;
+    border-bottom: solid #ffffff 2px;
+    border-left: solid #ffffff 5px;
 }
 .blue { 
     padding: 20px;
     background-color: #0051ff;
-    text-align: right;
+    text-align: left;
     margin-right: 50px;
-    border-top: solid white 2px;
-    border-right: solid white 5px;
+    border-top: solid #ffffff 2px;
+    border-right: solid #ffffff 5px;
 }
-.blue h1 p {
+/* .blue h2 {
+    color: #C4C4C4;
+}
+.blue p{
+    color: #C4C4C4;
+} */
+.blue * {
     color: #C4C4C4;
 }
 .yellow { 
@@ -64,8 +70,8 @@ div {
     background-color: #fff700;
     text-align: right;
     margin-left: 50px;
-    border-bottom: solid white 2px;
-    border-left: solid white 5px;
+    border-bottom: solid #ffffff 2px;
+    border-left: solid #ffffff 5px;
 }
 .yellow p {
     color: #707070;
@@ -73,13 +79,13 @@ div {
 .green { 
     padding: 20px;
     background-color: #00D800;
-    text-align: right;
+    text-align: left;
     margin-right: 50px;
-    border-top: solid white 2px;
-    border-right: solid white 5px;
+    border-top: solid #ffffff 2px;
+    border-right: solid #ffffff 5px;
 }
 footer { 
-    border: solid 5px white;
+    border: solid 5px #ffffff;
     background-image: linear-gradient(to right, #000000 0%, #0000ff 25%,  #0066ff 70%);
 }
 footer p {
